@@ -74,6 +74,9 @@ def get_lat_lon(exif_data):
 
 
 if __name__ == "__main__":
+	"""Takes the lattitude and longitude from the image metadata from all jpg files in the images folder and
+	plots them on a scatter plot with image names as a label"""
+
 	lat = []
 	lon = []
 	n = []
